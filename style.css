@@ -80,4 +80,16 @@ body {
   background-color: #f8f8f8;
   margin-top: 4rem;
   font-size: 0.9rem;
+.video-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-wrapper iframe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
 }
